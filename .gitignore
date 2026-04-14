@@ -1,0 +1,41 @@
+# VS Code folders
+.vscode/
+
+# Python folders
+*.egg-info/
+build/
+__pycache__/
+
+# Pycache files
+*.pyc
+*.pyo
+
+# Images
+*.png
+*.svg
+*.pdf
+
+# Sklearn model files
+*.joblib
+
+# Python variables
+*.pkl
+
+# Pytorch weights and saved
+*.pth
+
+# Datasets
+*.csv
+*.h5
+
+# Data folder
+data/
+
+# Out folder
+out/
+
+# Model folder
+model/
+
+# Logs
+video/
