@@ -20,12 +20,12 @@ The paper has been accepted at ARSO 2026. The pdf is available on arXiv [TODO]()
 
 Cite this work:
 ```
-@inproceedings{todo,
- author = {todo},
- title = {todo},
- booktitle={todo}, 
- pages = {-},
- year = {todo},
+@inproceedings{arreghini2026sixth,
+  title={Sixth-Sense: Self-Supervised Learning of Spatial Awareness of Humans from a Planar Lidar},
+  author={Arreghini, Simone and Carlotti, Nicholas and Nava, Mirko and Paolillo, Antonio and Giusti, Alessandro},
+  booktitle={IEEE International Conference on Advanced Robotics and its Social Impacts},
+  pages = {--},
+  year={2026}
 }
 ```
 
