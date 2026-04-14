@@ -16,7 +16,7 @@ The paper has been accepted at ARSO 2026. The pdf is available on arXiv [TODO]()
 
 ### ARSO Video Submission (Click to start the video)
 
-[![image](figures/video_start.png)](https://youtu.be/0aikTz2cN_c)
+[![image](figures/video_start.png)](https://youtu.be/Wlw-mB84FPk)
 
 Cite this work:
 ```
