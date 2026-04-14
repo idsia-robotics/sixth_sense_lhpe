@@ -1,0 +1,60 @@
+fcn_configs:
+  layer_configs:
+  - dilation: 1
+    kernel_size: 3
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 1
+    kernel_size: 3
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 1
+    kernel_size: 3
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 2
+    kernel_size: 3
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 2
+    kernel_size: 5
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 2
+    kernel_size: 7
+    out_channels: 32
+    use_group_norm: true
+  - dilation: 2
+    kernel_size: 7
+    out_channels: 32
+    use_group_norm: true
+  use_skip_connection: true
+history_parameters:
+  length: 30
+  stride: 1
+model_nickname: false
+train_configs:
+  augmentations: true
+  batch_size: 64
+  dummy_model: false
+  dummy_type: random
+  learning_rate: 0.0003
+  loss_function:
+    bidirection: false
+    distance: true
+    orientation: true
+    presence: true
+    verse: false
+  num_epochs: 500
+training_files:
+- hdf5/rosbag2_2024_12_12-16_36_58.h5
+- hdf5/rosbag2_2024_12_13-10_35_11.h5
+- hdf5/rosbag2_2024_12_13-10_53_19.h5
+- hdf5/rosbag2_2024_12_17-09_56_33.h5
+- hdf5/rosbag2_2024_12_17-10_08_56.h5
+- hdf5/rosbag2_2025_01_17-14_10_06.h5
+- hdf5/rosbag2_2025_01_21-17_17_22_open_space_1.h5
+- hdf5/rosbag2_2024_12_19-10_02_15.h5
+- hdf5/rosbag2_2025_01_28-17_31_50.h5
+validation_files:
+- hdf5/rosbag2_2025_01_21-17_35_52_open_space_2.h5
