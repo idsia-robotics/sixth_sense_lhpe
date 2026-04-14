@@ -1,10 +1,35 @@
 # Sixth-Sense: Self-Supervised Learning of Spatial Awareness of Humans from a Planar Lidar
 
-Simone Arreghini, Nicholas Carlotti, Mirko Nava, Antonio Paolillo, and Alessandro Giusti*
+*Simone Arreghini, Nicholas Carlotti, Mirko Nava, Antonio Paolillo, and Alessandro Giusti*
 
 Dalle Molle Institute for Artificial Intelligence, USI-SUPSI, Lugano (Switzerland)
 
-### Installation Instructions
+## Informations
+
+### Paper Abstract
+
+Reliable localization of people is fundamental for service robots that must operate in close social interaction with humans. State-of-the-art human detectors often rely on RGB-D cameras or costly 3D LiDARs. However, most commercial
+robots are equipped with cameras with a narrow field of view, leaving them unaware of users approaching from other directions, or inexpensive 1D LiDARs whose readings are hard to interpret. To address these limitations, we propose a self-supervised approach to detect humans and estimate their 2D pose from 1D LiDAR data, using detections from an RGB-D
+camera as supervision. Trained on 70 minutes of autonomously collected data, our model detects humans omnidirectionally in unseen environments with 71% precision, 80% recall, and mean absolute errors of 13 cm in distance and 44◦ in orientation, measured against ground truth data. Beyond raw detection accuracy, this capability is relevant for service robots operating in shared public spaces, where omnidirectional awareness of nearby people can support safer navigation, more appropriate approach behavior, and timely interaction initiation using low-cost, privacy-preserving sensing. Deployment in two additional public environments further suggests that the approach can serve as a practical wide-FOV awareness layer for socially aware service-robot behavior in unseen conditions.
+
+The paper has been accepted at ARSO 2026. The pdf is available on arXiv [TODO]().
+
+### ARSO Video Submission (Click to start the video)
+
+[![image](figures/video_start.png)](https://youtu.be/0aikTz2cN_c)
+
+Cite this work:
+```
+@inproceedings{todo,
+ author = {todo},
+ title = {todo},
+ booktitle={todo}, 
+ pages = {-},
+ year = {todo},
+}
+```
+
+## Installation Instructions
 
 To install this package, as well as any dependency:
 ```bash
