@@ -28,6 +28,9 @@ Cite this work:
   year={2026}
 }
 ```
+### Related Dataset
+
+Available on [Zenodo - Sixth Sense: Indoor Human Spatial Awareness Dataset](https://zenodo.org/records/14936069). 
 
 ## Installation Instructions
 
